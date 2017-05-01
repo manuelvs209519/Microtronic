@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"/>
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/flaticon.css"/>
+        <title>Tienda Electronica</title>
+    </head>
+    <body>
+        <!--Menú-->
+        <div id="menu">
+            <ul class="ulMenu">
+                <li onclick="menu('Page1')">
+                    Inicio 
+                </li>
+                <li onclick="menu('Page2')">
+                    Arduinos
+                </li>
+                <li onclick="menu('Page3')">
+                    Microcontroladores
+                </li>
+                 <li onclick="menu('Page4')">
+                    Sensores
+                </li>
+                 <li onclick="menu('Page5')">
+                    Motores
+                </li>
+                 <li onclick="menu('Page6')">
+                    Leds
+                </li>
+            </ul>
+        </div>
+        <!--Pagina de Inicio-->
+        <div class="body" id="Page1">
+            <header>
+                <div onclick="menuButtonClick()" class="btn flaticon-menu48"></div>
+                <div class="title">Inicio</div>
+            </header>
+             <div class="content">
+                 <h1>Destacados</h1>
+                 <h2>Arduino Uno R3</h2>
+                 <img src="img/Arduino/ArduinoUnor3.jpg"/>
+	             <h3>350.00 MXN</h3>
+                 <h2>Microcontrolador Pic 16f84a</h2>
+                <img src="img/Microcontroladores/microcontroladorpic16f84a.png"/>
+	            <h3>60.00 MXN</h3>
+                <h2>Sensor Ultrasónico Hc-sr04</h2>
+                <img src="img/Sensores/SENSOR DE DISTANCIA POR ULTRASONIDOS HC-SR04.jpg" />
+	            <h3>25.00 MXN</h3>
+                <h2>Led 5mm Estandar</h2>
+                <img src="img/Leds/LED 5 MM ESTÁNDAR.jpg"/>
+	            <h3>2.00 MXN</h3>
+             </div>
+        </div>
+        <!--Pagina del catalogo de arduino-->
+        <div class="body hide" id="Page2">
+            <header>
+                <div onclick="menuButtonClick()" class="btn flaticon-menu48"></div>
+                <div class="title">Arduinos</div>
+            </header>
+             <div class="content">
+                    <h2>Arduino Mega Atmega2560</h2>
+                 	<img src="img/Arduino/arduinomega1.jpg"/>
+	                <h3>452.00 MXN</h3>
+                    <h2>Arduino Uno R3</h2>
+                 	<img src="img/Arduino/ArduinoUnor3.jpg"/>
+	                <h3>350.00 MXN</h3>
+                    <h2>Arduino Nano</h2>
+                 	<img src="img/Arduino/Arduinonano.png"/>
+	                <h3>100.00 MXN</h3>
+                    <h2>Arduino Leonardo</h2>
+                 	<img src="img/Arduino/Leonardo.jpg"/>
+	                <h3>300.00 MXN</h3>
+             </div>
+        </div>
+        <!--Pagina del catalogo de Microcontroladores-->
+        <div class="body hide" id="Page3">
+            <header>
+                <div onclick="menuButtonClick()" class="btn flaticon-menu48"></div>
+                <div class="title">Microcontroladores</div>
+            </header>
+             <div class="content">
+                    <h2>Microcontrolador Pic 16f84a</h2>
+                 	<img src="img/Microcontroladores/microcontroladorpic16f84a.png"/>
+	                <h3>60.00 MXN</h3>
+                    <h2>Microcontrolador Pic 16f877a</h2>
+                 	<img src="img/Microcontroladores/pic16f877a.jpg"/>
+	                <h3>80.00 MXN</h3>
+                    <h2>Microcontrolador Atmega 168</h2>
+                 	<img src="img/Microcontroladores/atmega168.jpg"/>
+	                <h3>139.00 MXN</h3>
+                    <h2>Microcontrolador Atmega 328p</h2>
+                 	<img src="img/Microcontroladores/atmega328p.jpg"/>
+	                <h3>100.00 MXN</h3>
+             </div>
+        </div>
+        <!--Pagina del catalogo de sensores-->
+        <div class="body hide" id="Page4">
+            <header>
+                <div onclick="menuButtonClick()" class="btn flaticon-menu48"></div>
+                <div class="title">Sensores</div>
+            </header>
+             <div class="content">
+                    <h2>Ldr Foto Resistencia</h2>
+                 	<img src="img/Sensores/FOTO-RESISTENCIA LDR 3.4 MM.jpg"/>
+	                <h3>5.00 MXN</h3>
+                    <h2>Sensor Ultrasónico Hc-sr04</h2>
+                 	<img src="img/Sensores/SENSOR DE DISTANCIA POR ULTRASONIDOS HC-SR04.jpg"/>
+	                <h3>25.00 MXN</h3>
+                    <h2>Sensor De Movimiento Pir Hc-sr501</h2>
+                 	<img src="img/Sensores/SENSOR DE MOVIMIENTO PIR.png"/>
+	                <h3>29.00 MXN</h3>
+                    <h2>Sensor De Temperatura Y Humedad Dht11</h2>
+                 	<img src="img/Sensores/SENSOR DE HUMEDAD Y TEMPERATURA DHT11.jpg"/>
+	                <h3>20.00 MXN</h3>
+             </div>
+        </div>
+        <!--Pagina del catalogo de Motores-->
+        <div class="body hide" id="Page5">
+            <header>
+                <div onclick="menuButtonClick()" class="btn flaticon-menu48"></div>
+                <div class="title">Motores</div>
+            </header>
+            <div class="content">
+                    <h2>Motor Dc 3v-6v 16500rpm</h2>
+                 	<img src="img/Motores/MOTOR CC 3 A 6 V.jpg"/>
+	                <h3>29.00 MXN</h3>
+                    <h2>Motor A Paso Pequeño Para 5v</h2>
+                 	<img src="img/Motores/MOTOR PASO A PASO 5V PEQUEÑO.jpg"/>
+	                <h3>50.00 MXN</h3>
+                    <h2>Servo Motor Sg90</h2>
+                 	<img src="img/Motores/servo-motor-fs90r-con-rotacion-continua.jpg"/>
+	                <h3>38.00 MXN</h3>
+                    <h2>Motor Con Reductor 100 Rpm</h2>
+                 	<img src="img/Motores/MINI MOTOR REDUCTOR METALICO 100.jpg"/>
+	                <h3>38.00 MXN</h3>
+             </div>
+        </div>
+         <!--Pagina del catalogo de Leds-->
+        <div class="body hide" id="Page6">
+            <header>
+                <div onclick="menuButtonClick()" class="btn flaticon-menu48"></div>
+                <div class="title">Leds</div>
+            </header>
+            <div class="content">
+                    <h2>Led 5mm Estandar</h2>
+                 	<img src="img/Leds/LED 5 MM ESTÁNDAR.jpg"/>
+	                <h3>2.00 MXN</h3>
+                    <h2>Led de Alta luminosidad de 10mm</h2>
+                 	<img src="img/Leds/LED 10MM ALTA LUMINOSIDAD.jpg"/>
+	                <h3>5.00 MXN</h3>
+                    <h2>Led Ultravioleta De 5mm</h2>
+                 	<img src="img/Leds/LED ULTRAVIOLETA 5MM.jpg"/>
+	                <h3>6.00 MXN</h3>
+                    <h2>Tira Led Rgb 5mm</h2>
+                 	<img src="img/Leds/Tira de leds.jpg"/>
+	                <h3>300.00 MXN</h3>
+             </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/fastclick.js"></script>
+    </body>
+</html>
